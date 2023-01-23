@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cereal Nutrition Facts</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            flex-direction: row;
+        }
+        #tab{
+        border: 1px;
+        border-color: black;
+        }
+        .nutrition-label {
+            border-color: black;
+            border-bottom: 10px solid;
+        }
+
+        .nutrition-label h1 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .nutrition-label h4{
+            margin-top: 0;   
+            margin-bottom: 0;
+        }
+
+        .ServingCerealMilk th {
+            font-size: 80%;
+            display: flex;
+            border-color: black;
+            border-bottom: 2px solid;
+        }
+
+        .Calories {
+            display: flex;
+            border-color: grey;
+            border-bottom: 5px solid;
+        }
+
+        #dailyValue{
+            float: right;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <table id="tab">
+
+        <div class=nutrition-label>
+            <h1><strong>Nutrition Facts</strong></h1>
+            <h4>Serving Size 1 cup (50g)</h4>
+            <h4>Servings Per Container 10</h4>
+        </div>
+
+        <tr class="ServingCerealMilk">
+            <th>Amount Per Serving</th>
+            <th>Cereal</th>
+            <th>with 1/2 cup 1% milk</th>
+        </tr>
+        <tr class="Calories">
+            <th>Calories 190  250</th>
+            <th>Calories from Fat 35  45</th>
+        </tr>
+        <tr>
+            <td id="dailyValue"><b>% Daily Value**</b></td>
+
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+
+    </table>
+
+</body>
+
+</html>
