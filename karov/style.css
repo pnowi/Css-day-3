@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 30vw;
+    
+}
+
+.hr-black {
+    height: .5em;
+    background-color: black;
+    width: 92%;
+    align-self: center;
+}
